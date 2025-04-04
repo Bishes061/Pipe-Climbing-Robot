@@ -21,7 +21,7 @@ This project focuses on developing a **pipe climbing robot** capable of navigati
 
 The pipe diameter is calculated using image processing as follows:
 
-1. **Image Capture:** A camera mounted on the robot captures images of the pipe.
+1. **Image Capture:** A camera mounted on the robot captures pipe images.
 2. **Preprocessing:**
    - Convert to grayscale.
    - Apply Gaussian Blur.
@@ -30,14 +30,14 @@ The pipe diameter is calculated using image processing as follows:
    - Detect the outer boundary of the pipe.
    - Use bounding box or ellipse fitting to estimate shape.
 4. **Pixel to Real-World Conversion:**
-   - Use a reference object of known size or pre-calibrated scale.
+   - Use a reference object of known size or a pre-calibrated scale.
    - Convert the pixel width of the pipe to real-world diameter.
 
-> 📏 Accuracy depends on calibration and resolution of the camera.
+> 📏 Accuracy depends on the calibration and resolution of the camera.
 
 ## 🚀 Setup Instructions
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pipe-climbing-robot.git
+   git clone https://github.com/Bishes061/pipe-climbing-robot.git
    cd pipe-climbing-robot
