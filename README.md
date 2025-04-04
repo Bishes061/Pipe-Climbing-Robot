@@ -2,7 +2,7 @@
 
 ## 🧠 Overview
 
-This project focuses on developing a **pipe climbing robot** capable of navigating vertically placed cylindrical pipes. The core feature of the project involves **measuring the pipe diameter using computer vision techniques**. OpenCV is utilized to process images or video frames and estimate the diameter based on pixel dimensions.
+This project focuses on developing a **pipe climbing robot** capable of navigating vertically placed cylindrical pipes. The core feature of the project involves **measuring the pipe diameter using computer vision techniques**. The system detects pipe contours from camera input and converts pixel width to real-world dimensions for precise diameter estimation.
 
 ## 🎯 Objectives
 
