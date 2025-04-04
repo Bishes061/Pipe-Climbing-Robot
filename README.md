@@ -13,7 +13,7 @@ This project focuses on developing a **pipe climbing robot** capable of navigati
 ## 🧰 Tech Stack
 
 - **Programming Language:** Python
-- **Libraries/Frameworks:** OpenCV, NumPy
+- **Libraries/Frameworks:** OpenCV, NumPy, Matplotlib
 - **Hardware:** Pipe climbing robot, camera module
 - **Platform:** Raspberry Pi / Arduino (optional, based on implementation)
 
